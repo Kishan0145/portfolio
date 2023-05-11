@@ -13,7 +13,7 @@ export const Contact = () => {
   return (
     <section className="contact" id="connect">
       <Container>
-        <Row className="align-items-center">
+        <Row className="align-items-center gap-100">
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
